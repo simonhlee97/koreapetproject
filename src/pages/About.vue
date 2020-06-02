@@ -6,7 +6,7 @@
 		
 		<p>There are a lot of dogs and cats in Korea that need good homes. I am hoping that this project can help provide useful information to those interested in adopting a pet.</p>
 
-		<p>If you are a developer and want to make this site look prettier, feel free to <a href='https://github.com/simonhlee97/' target='_blank'>visit the repo</a> and look at the code.</p>
+		<p>If you are a developer and want to contribute to the design of this site, feel free to fork and submit a pull request. <a href='https://github.com/simonhlee97/koreapetproject' target='_blank'>Visit the repo</a> for the code.</p>
 		<p>Thanks for visiting.</p>
 		<p>- Simon Lee. June 2020</p>
 
