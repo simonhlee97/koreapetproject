@@ -20,13 +20,19 @@
 		</tr>
 	</table>
 
+
 	<p>🐶Thank you for supporting our project</p>
+	<div class="gridcontainer">
+		<div v-for="item in pups" :key="item.index" class="tile"><img :src="item" alt="pup"></div>
+	</div>
+	
   </Layout>
 </template>
 
+
 <page-query>
 query {
-	allGoogleSheet(limit: 100 sortBy: "shelterName", order: DESC) {
+	allGoogleSheet(limit: 100 sortBy: "shelter_name", order: DESC) {
 		edges {
 			node {
 				shelter_name
@@ -42,13 +48,63 @@ query {
 </page-query>
 
 <script>
-export default {
-  metaInfo: {
-  }
-}
+	export default {
+		data() {
+			return {
+				pups: []
+			}
+		},
+		beforeMount(){
+			this.getItems();
+		},
+		methods: {
+			async getItems(){
+				const res = await fetch('https://dog.ceo/api/breeds/image/random/9');
+				const items = await res.json();
+				this.pups = items.message;
+			}
+		}
+	}
 </script>
 
 <style>
+.gridcontainer {
+	display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0.5rem;
+}
+.tile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tile:nth-child(1){
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.tile:nth-child(2),
+.tile:nth-child(3){
+    grid-column: span 2;
+}
+
+.tile:nth-child(4),
+.tile:nth-child(5), .tile:nth-child(6),
+.tile:nth-child(7), .tile:nth-child(8),
+.tile:nth-child(9){
+    grid-column: span 3;
+}
+
+@media screen and (max-width: 650px){
+    .gridcontainer{
+        display: block;
+    }
+    .tile{
+        margin-bottom: 1rem;
+    }
+}
+
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;

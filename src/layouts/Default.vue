@@ -5,13 +5,9 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-
-		<!-- <g-link class="nav__link" to="/dogs/">Adopt a Dog</g-link>
-		<g-link class="nav__link" to="/cats/">Adopt a Cat</g-link> -->
+		
 		<g-link class="nav__link" to="/directory/">Animal Shelters List</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
-
       </nav>
     </header>
 
@@ -19,7 +15,7 @@
 
 	<footer>
 		<div class="footer">
-			<p>info@koreapetproject.org</p>
+			<p>koreapetproject@gmail.com</p>
 			<p>copyright 2020 | Korea Pet Project</p>
 			<p>website: Simon Lee</p>
 		</div>

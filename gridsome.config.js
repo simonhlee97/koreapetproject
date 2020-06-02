@@ -14,7 +14,7 @@ module.exports = {
       options: {
         sheetId: "1opOCQWMLPI6aSzauqv2dLfjZVvLgVOJOGA8-kQkkZ64",
         apiKey: "AIzaSyAYnaT7RMC4Knz8XsDSDUrfrfojS8bxFDM",
-      },
+	  }
     },
   ],
   templates: {
