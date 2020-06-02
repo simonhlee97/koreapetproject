@@ -1,2 +1,2 @@
 # googlesheets-gridsome
-# May 28 2020
+# a VueJS + Gridsome (static site generator) app connected to Google Sheet API using Gridsome-Google-Sheet Plugin
