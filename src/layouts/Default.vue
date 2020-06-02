@@ -16,7 +16,7 @@
 	<footer>
 		<div class="footer">
 			<p>copyright 2020 | Korea Pet Project</p>
-			<p>website created by: <a href='https://simonhlee97.github.io/' target="_blank">Simon Lee<></p>
+			<p>website created by: <a href='https://simonhlee97.github.io/' target="_blank">Simon Lee</a></p>
 		</div>
 	</footer>
   </div>
