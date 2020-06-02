@@ -13,9 +13,9 @@
 
 		<div class="help">
 			<h2>How you can help  ❤️️</h2>
-			<p>1. To add a shelter to our list, please send the url (or <i>name, phone #, address</i> if they don't have a website) to <b>koreapetproject@gmail.com</b>. No puppy mills please!</p>
+			<p>1. To add a shelter to our list, please send the url (or <i>name, phone #, address</i> if they don't have a website) to <b>lee.simon4945@yahoo.com</b>. No puppy mills please!</p>
 
-			<p>2. If you are bilingual and would like to help with localization (translating English to Korean) please email <b>koreapetproject@gmail.com</b> with "translation: Korea Pet Project" in the subject line.</p>
+			<p>2. If you are bilingual and would like to help with localization (translating English to Korean) please email <b>lee.simon4945@yahoo.com</b> with "translation: Korea Pet Project" in the subject line.</p>
 			<p>🐶Thank you for supporting our project</p>
 		</div>
 	</div>
